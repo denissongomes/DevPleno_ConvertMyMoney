@@ -17,6 +17,7 @@ This project was created as part of the Fullstack Master training to reinforce k
 - NodeJS
 - Express
 - EJS
+- Axios
 - CI/CD
 - Jest
 - Vercel

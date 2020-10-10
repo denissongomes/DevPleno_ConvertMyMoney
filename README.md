@@ -1,9 +1,9 @@
 # ConvertMyMoney
-ConvertMyMoney is part of the course Fullstack Master - [DevPleno](https://www.devpleno.com/)
+ConvertMyMoney is part of [DevPleno](https://www.devpleno.com/) Fullstack Master Training 
 
 # Project Overview
 
-This project was created as part of the course Fullstack Master to reinforce knowledge in Javascript, Express, EJS and automated tests.
+This project was created as part of the Fullstack Master training to reinforce knowledge in Javascript, Express, EJS and automated tests.
 - Javascript
 - Express
 - Ejs

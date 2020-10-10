@@ -4,7 +4,8 @@
   "description": "This is a repo for the training course DevPleno - FullStack Master",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "dependencies": {
     "ejs": "^3.1.5",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.5.2"
   }
 }

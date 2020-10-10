@@ -20,14 +20,25 @@ app.get("/", (req,res) => {
 })
 
 app.get('/cotacao', (req,res) => {
-    const { cotacao, quantidade } = req.query
-    const conversao = convert.convert(cotacao, quantidade)
-    res.render('cotacao', {
-        cotacao,
-        conversao,
-        quantidade
-    })
-})
+    const { cotacao, quantidade} = req.query
+    
+    if(cotacao, quantidade){
+        const conversao = convert.convert(cotacao, quantidade)
+            res.render('cotacao', {
+                error: false,
+                cotacao: convert.toMoney(cotacao),
+                quantidade: convert.toMoney(quantidade),
+                conversao: convert.toMoney(conversao),
+            })
+    } else {
+        res.render('cotacao', {
+            error: 'Valores inválidos'
+        })
+
+
+    }
+
+}) 
 
 
 app.listen(port, err => {

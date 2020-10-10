@@ -12,8 +12,6 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 app.get("/", (req,res) => {
     const cotacao  = 1
- 
-
     res.render('home', {
         cotacao
     })

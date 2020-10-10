@@ -1,5 +1,11 @@
 <%- include('header') %>
 
-<h1>Hello World!</h1>
+<h1>Bem vindo ao ConvertMyMoney!</h1>
+
+<form method="GET" action="/cotacao">
+    <input name="cotacao" placeholder="Cotação do Dolar" type="text" value="<%= cotacao %>"><br>
+    <input name="quantidade" placeholder="Quantidade de dolares" type="text"><br>
+    <button>Converter!</button>
+</form>
 
 <%- include('footer') %>

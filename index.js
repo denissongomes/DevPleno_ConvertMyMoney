@@ -7,12 +7,12 @@ app.set('view engine', 'ejs')
 app.set('views', path.join(__dirname, 'views'))
 app.use(express.static(path.join(__dirname, 'public')))
 
-app.get("/", (req,res)=>{
+app.get("/", (req,res) => {
     res.render('home')
 })
 
 
-app.listen(port, err=>{
+app.listen(port, err => {
     if(err){
         console.log('Não foi possível conectar ao servidor')
 

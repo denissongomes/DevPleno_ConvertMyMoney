@@ -18,7 +18,6 @@ This project was created as part of the course Fullstack Master to reinforce kno
 - Jest
 
 # How to run locally
-
 - Clone the repository
 - Run NPM install
 - Run NPM start

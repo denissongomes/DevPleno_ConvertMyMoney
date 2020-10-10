@@ -28,7 +28,7 @@ This project was created as part of the Fullstack Master training to reinforce k
 - Run NPM start
 - App will be running on localhost:3000
 
-# Testes (Jest)
+# Test (Jest)
 ![Tested](https://raw.githubusercontent.com/denissongomes/DevPleno_ConvertMyMoney/main/assets/tested.png)
 
 ### The deployment is available on Vercel: [ConvertMyMoney](https://devpleno_convertmymoney.vercel.app/)

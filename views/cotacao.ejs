@@ -1,6 +1,16 @@
 <%- include('header') %>
+<h1> Resultado:</h1>
+<div class="result">
+<% if(error){ %>
+  <%= error %>
+  <% } else { %>
+    
+<p>A conversão para: <%= quantidade %> dolares na cotação de <%= cotacao %>  é de:</p>
+<br>
+<p>R$ <%= conversao %></p> 
 
-<h1>Cotação:<%= cotacao %></h1>
+<% } %>
 
+</div> <!--result-->
 
 <%- include('footer') %>

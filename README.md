@@ -30,3 +30,5 @@ This project was created as part of the Fullstack Master training to reinforce k
 # Testes (Jest)
 ![Tested](https://raw.githubusercontent.com/denissongomes/DevPleno_ConvertMyMoney/main/assets/tested.png)
 
+### The deployment is available on Vercel: [ConvertMyMoney](https://devpleno_convertmymoney.vercel.app/)
+

@@ -1,6 +1,9 @@
 # ConvertMyMoney
 ConvertMyMoney is part of [DevPleno](https://www.devpleno.com/) Fullstack Master Training 
 
+![Home](https://raw.githubusercontent.com/denissongomes/DevPleno_ConvertMyMoney/main/assets/home.png)
+![Converted](https://raw.githubusercontent.com/denissongomes/DevPleno_ConvertMyMoney/main/assets/converted.png)
+
 # Project Overview
 
 This project was created as part of the Fullstack Master training to reinforce knowledge in: 
@@ -23,4 +26,7 @@ This project was created as part of the Fullstack Master training to reinforce k
 - Run NPM install
 - Run NPM start
 - App will be running on localhost:3000
+
+# Testes (Jest)
+![Tested](https://raw.githubusercontent.com/denissongomes/DevPleno_ConvertMyMoney/main/assets/tested.png)
 
